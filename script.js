@@ -513,7 +513,7 @@ function createPhotoCard(index) {
     photo.position.z = 0.15;
     orb.add(photo);
 
-    const imagePath = `assets/images/photo${index + 1}.jpeg`;
+    const imagePath = `photo${index + 1}.jpeg`;
 
     textureLoader.load(
         imagePath,
